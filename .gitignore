@@ -170,6 +170,14 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# Ignorar todo el contenido de la carpeta 'data'
+data/*
 
+# Excepción para no ignorar el archivo '.gitkeep'
 !data/.gitkeep
+
+# Ignorar todo el contenido de la carpeta 'outputs'
+outputs/*
+
+# Excepción para no ignorar el archivo '.gitkeep'
 !outputs/.gitkeep
