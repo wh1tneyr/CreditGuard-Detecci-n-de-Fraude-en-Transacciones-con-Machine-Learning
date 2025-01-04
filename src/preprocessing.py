@@ -20,3 +20,8 @@ data.duplicated().sum()
 data.isna().sum()
 
 # -- No hay datos ausentes -- 
+
+# Ver desequilibrio de clases 
+data['Class'].value_counts()
+
+# -- Las clases positiva y negativa estan equilibradas
