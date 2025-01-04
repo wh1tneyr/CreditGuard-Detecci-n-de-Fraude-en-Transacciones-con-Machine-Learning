@@ -2,11 +2,21 @@ import pandas as pd
 import os, sys
 sys.path.append(os.getcwd())
 
-#importar dataset 
+# Leer dataset 
 data = pd.read_csv('data/creditcard_2023.csv')
 
-#ver informacion del dataset
+# Informacion del df
 data.info()
 
-#ver descripcion del df
+# Descripcion del df
 data.describe()
+
+# Ver datos duplicados
+data.duplicated().sum()
+
+# -- No hay datos duplicados -- 
+
+# Ver datos ausentes 
+data.isna().sum()
+
+# -- No hay datos ausentes -- 
