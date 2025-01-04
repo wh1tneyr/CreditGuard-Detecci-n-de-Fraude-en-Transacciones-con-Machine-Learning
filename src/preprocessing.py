@@ -9,7 +9,7 @@ data = pd.read_csv('data/creditcard_2023.csv')
 data.info()
 
 # Descripcion del df
-data.describe()
+data.describe
 
 # Ver datos duplicados
 data.duplicated().sum()
